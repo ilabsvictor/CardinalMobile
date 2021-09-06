@@ -17,7 +17,7 @@ jobs:
         
       - name: Build project # This would actually build your project, using zip for an example artifact
         run: |
-          zip --junk-paths CardinalMobile.framework
+          zip -r CardinalMobile.framework.zip CardinalMobile.framework
 
       - name: Create Release
         id: create_release
