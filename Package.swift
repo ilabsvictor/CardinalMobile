@@ -17,6 +17,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CardinalMobile",
-            path: "CardinalMobile.framework")
+            path: "CardinalMobile.xcframework")
     ]
 )
