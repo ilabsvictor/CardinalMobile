@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name					= 'AirwallexCardinalMobile'
-  s.version					= '2.2.4'
+  s.version					= '2.2.5'
   s.summary					= 'CardinalMobile framework'
   s.homepage				= "https://www.airwallex.com/docs/#overview"
   s.license					= { :type => 'MIT', :file => 'LICENSE' }
